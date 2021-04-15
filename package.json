@@ -1,0 +1,22 @@
+{
+  "name": "Projeto_Node_Redis_DIO",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "queue": "nodemon src/queue.js"
+  },
+  "dependencies": {
+    "bull": "^3.22.0",
+    "bull-board": "^1.5.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.5.0",
+    "password-generator": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sucrase": "^3.18.1"
+  }
+}
